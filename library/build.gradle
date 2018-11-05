@@ -24,11 +24,16 @@ dependencies {
     implementation "com.android.support:support-media-compat:$rootProject.ext.supportLibVersion"
     implementation "com.android.support:appcompat-v7:$rootProject.ext.supportLibVersion"
 
+    implementation "com.github.wangdaliu.ExoPlayer:exoplayer:v2.9.1"
+
     // ExoPlayer
-    api "com.google.android.exoplayer:exoplayer-core:$rootProject.ext.exoPlayerVersion"
-    api "com.google.android.exoplayer:exoplayer-dash:$rootProject.ext.exoPlayerVersion"
-    api "com.google.android.exoplayer:exoplayer-hls:$rootProject.ext.exoPlayerVersion"
-    api "com.google.android.exoplayer:exoplayer-smoothstreaming:$rootProject.ext.exoPlayerVersion"
+//    api "com.google.android.exoplayer:exoplayer-core:$rootProject.ext.exoPlayerVersion"
+//    api "com.google.android.exoplayer:exoplayer-dash:$rootProject.ext.exoPlayerVersion"
+//    api "com.google.android.exoplayer:exoplayer-hls:$rootProject.ext.exoPlayerVersion"
+//    api "com.google.android.exoplayer:exoplayer-smoothstreaming:$rootProject.ext.exoPlayerVersion"
+
+
+
 }
 
 android {

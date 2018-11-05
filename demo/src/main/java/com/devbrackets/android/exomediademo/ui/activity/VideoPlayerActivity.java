@@ -11,7 +11,7 @@ import com.devbrackets.android.exomediademo.data.MediaItem;
 import com.devbrackets.android.exomediademo.data.Samples;
 import com.devbrackets.android.exomediademo.manager.PlaylistManager;
 import com.devbrackets.android.exomediademo.playlist.VideoApi;
-import com.google.android.exoplayer2.util.EventLogger;
+//import com.google.android.exoplayer2.util.EventLogger;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -76,7 +76,7 @@ public class VideoPlayerActivity extends Activity implements VideoControlsSeekLi
         videoView = findViewById(R.id.video_play_activity_video_view);
         videoView.setHandleAudioFocus(false);
         videoView.getVideoControls().setSeekListener(this);
-        videoView.setAnalyticsListener(new EventLogger(null));
+//        videoView.setAnalyticsListener(new EventLogger(null));
 
         videoApi = new VideoApi(videoView);
         playlistManager.addVideoApi(videoApi);
